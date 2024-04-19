@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;1,300&family=Croissant+One&family=Merienda:wght@600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.login {
+    background: #396C03;
+    height: auto;
+    width: 120px;
+    color: white;
+    border-radius: 28px;
+    border: 0px;
+
+}
+
+.nav {
+    gap: 40px;
+}
+
+.con {
+    border-bottom: 1px solid gray;
+
+}
+
+.bgcolor {
+    background: #396c0318;
+    height: 780px;
+}
+
+.tralimg {
+    background: #396C03;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.two {
+    position: absolute;
+    background-color: #FF8B00;
+    margin-left: 85px;
+    color: white;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 100px;
+
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.heading1 {
+    color: #396C03;
+    font-family: 'Merienda';
+    margin-left: 100px;
+}
+
+.para {
+    color: #676767;
+    margin-left: 100px;
+}
+
+
+.input-Gro {
+    display: flex;
+    margin-left: 100px;
+}
+
+.lock {
+    position: absolute;
+    background-color: #FF8B00;
+    border-radius: 100px;
+    border: 0px;
+    padding: 6px;
+    margin: 6px;
+}
+
+.form-control {
+    padding-left: 57px;
+    height: 55px;
+    width: 360px;
+    border-radius: 50px;
+}
+
+.search {
+    background: #396C03;
+    padding: 14px;
+    width: 170px;
+    color: white;
+    border-radius: 50px;
+    border: 0px;
+}
+
+.searchhold {
+    position: absolute;
+    margin-left: 280px;
+    display: flex;
+    justify-content: end;
+}
+
+.sp {
+    color: #FF8B00;
+}
+
+.heading2 {
+    color: #FF8B00;
+}
+
+.heading5 {
+    margin-top: 50px;
+    position: absolute;
+    color: #838383;
+}
+
+.lef2 {
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+
+.imgbg {
+    background-image: url('./imgs/bgimg.png');
+    width: 245px;
+    height: 118px;
+    padding-top: 20px;
+    border-radius: 8.87px;
+    border: 0.89px;
+    /* position: absolute; */
+    margin-top: 41px;
+    margin-left: 226px;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+}
+
+.fodes {
+    position: absolute;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+/* second section */
+
+.container-fluid {
+    background-color: #ff8c0013;
+}
+
+.Explo {
+    color: #396C03;
+    font-family: 'Merienda';
+    padding-top: 140px;
+    margin-left: 100px;
+}
+
+.parag {
+    color: #676767;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    margin-left: 100px;
+
+}
+
+.button-sec {
+    background-color: #396C03;
+    border: 0px;
+    border-radius: 50px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    width: 180px;
+    height: 60px;
+    margin-left: 100px;
+}
+
+.img-S {
+    background-image: url('./imgs/image\ 1.png');
+    margin-top: 40px;
+    padding-top: 30px;
+    /* padding-left: 90px; */
+    margin-bottom: 30px;
+
+}
+
+/* section three */
+
+.three-card {
+    margin-top: 150px;
+}
+
+.fram1C {
+    background-color: #83838333;
+    border: 0px;
+    padding-left: 5px;
+}
+
+.fram3D {
+    border: 0px;
+    /* width: 300px; */
+    padding-left: 10px;
+}
+
+.started {
+    width: 276px;
+    height: 67px;
+    border-radius: 224.4px;
+    gap: 30px;
+    padding: 10px;
+    background-color: #FF8B00;
+    border: 0px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.coking {
+    background-image: url('./imgs/image\ 3.svg');
+    border-radius: 30px;
+    padding-top: 600px;
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+
+.General {
+    background-color: #396C03;
+    color: white;
+    height: 50px;
+    width: 170px;
+    border-radius: 50px;
+    border: 0px;
+
+}
+
+.listis {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.list-group-item {
+    margin: 20px;
+}
+
+.business {
+    height: 50px;
+    width: 200px;
+    color: #396C03;
+    border: 1px solid gray;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.dolor-site {
+    color: #838383;
+}
+
+
+.backgrount-w {
+    background-color: #ff8c004f;
+    margin-top: 70px;
+}
+
+.Put-us {
+    color: #396C03;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 120px;
+
+}
+
+.Download {
+    font-size: 20px;
+}
+
+.background-M {
+    margin-top: 50px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.last-card {
+    background-color: #396C03;
+    padding-top: 80px;
+}
+
+.last-P {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.three-items {
+    color: white;
+
+}
+
+@media(max-width: 768px) {
+    .nav-item {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .dropdown-item {
+        font-size: 20px;
+    }
+
+    .login {
+        height: 50px;
+        width: 130px;
+        font-size: 20px;
+    }
+
+    .tralimg {
+        height: 50px;
+        width: 50px;
+        padding-left: 10px;
+    }
+
+    .para {
+        font-size: 40px;
+    }
+
+    .form-control {
+        font-size: 32px;
+        margin-top: 29px;
+        height: 100px;
+        width: 500px;
+        padding-left: 80px;
+    }
+
+
+    .search {
+        font-size: 40px;
+        width: 240px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-left: 65px;
+    }
+
+    .lock {
+        margin-top: 43px;
+        padding: 20px;
+    }
+
+    .heading1 {
+        font-size: 58px;
+    }
+
+    .heading2 {
+        margin-top: 8px;
+    }
+
+    .plait-group {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .bgcolor {
+        height: 1500px;
+    }
+
+    .life2 {
+        margin-right: 100px;
+    }
+
+    /* second section */
+
+    .Explo {
+        font-size: 70px;
+    }
+
+    .parag {
+        font-size: 35px;
+        margin-right: 40px;
+        /* text-align: center; */
+    }
+
+    .button-sec {
+        font-size: 30px;
+        letter-spacing: 2px;
+
+    }
+
+    .card-title {
+        font-size: 50px;
+    }
+
+    .card-text {
+        font-size: 30px;
+    }
+
+    .coking {
+        font-size: 30px;
+    }
+
+    .listis h1 {
+        font-size: 43px;
+    }
+
+    .buttons .General {
+        font-size: 30px;
+        height: 70px;
+        width: 210px;
+    }
+
+    .buttons .business {
+        font-size: 30px;
+        height: 70px;
+        width: 230px;
+    }
+
+    .list-group-item {
+        font-size: 25px;
+    }
+
+
+    .Put-us {
+        font-size: 45px;
+    }
+
+    .Download {
+        font-size: 23px;
+    }
+
+    .background-M {
+        width: 700px;
+    }
+
+    .last-P {
+        font-size: 28px;
+    }
+
+    .Quick-link {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    .three-items {
+        font-size: 30px;
+        margin-left: 26;
+    }
+
+
+}
